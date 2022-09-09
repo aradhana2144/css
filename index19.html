@@ -35,6 +35,16 @@
             #titlearea
             p{
             	color: red;
+            	font-weight: 900;
+            	font-size: 50px;
+            	font-family: arial,geneva,helvetica;
+            	font-style: italic;
+            	text-align: center;
+            	text-decoration: underline;
+            	text-transform: uppercase;
+            	word-spacing: 100px;
+            	/*letter-spacing: 10px;*/
+		
             }
             #menuarea{
                 width: 1200px;
@@ -69,6 +79,22 @@
                 float: left;
 
             }
+            #darea a:link{
+            			color:red;
+            		}
+            #darea a:visited{
+            			color:yellow;
+            		}
+            #darea a:hover{
+            			color:green;
+            			
+            		}	
+            #darea a:active{
+            			color:yellow;
+            		}
+            #darea a:link{
+            			color:white;
+            		}					
             #darea1{
                 width: 500px;
                 height: 200px;
@@ -77,6 +103,23 @@
                 margin:50px;
 
             }
+          /*#darea1
+            p{
+            	color: red;
+            }*/
+            /*#darea1
+            p:first-child{
+            	color: green;
+            }
+            #darea1
+            p:last-child{
+            	color: blue;
+            }*/
+            #darea1
+            p:nth-child(odd){
+            	color: white;
+            }
+            
             #darea2{
                 width: 500px;
                 height: 200px;
@@ -90,6 +133,7 @@
                 height: 300px;
                 background: #e028b2;
                 float: left;
+            
 
             }
             .boxarea1{
@@ -104,11 +148,11 @@
                 border-top:solid 10px black;*/
                 /*border:solid 10px rgba(0,0,0,0);
                 border:solid 10px transparent;*/
-                background:none;
+              /*  background:none;
                  border-top:solid 50px black;
                  border-right:solid 50px transparent;
                  /*border-bottom:solid 50px transparent;*/
-                 border-left:solid 50px  transparent;
+/*                 border-left:solid 50px  transparent;*/
            }
            .boxarea1:hover{
            	border:solid 10px rgb(0,0,0);
@@ -176,14 +220,16 @@
             </div>
         </div>
         <div id="darea">
-            <div id="darea1">
+            <div id="darea1"><a href="https://www.google.com">google</a> &nbsp; &nbsp; &nbsp; <a href="https://twitter.com"> Twitter</a>
             </div>
             <div id="darea2">
             </div>
         </div>
         <div id="boxarea">
+            
             <div class="boxarea1 bg1">
             </div>
+            
             
         </div>
         <div id="footerarea">

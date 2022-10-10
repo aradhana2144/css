@@ -1,0 +1,65 @@
+<!doctype html>
+<html>	
+	<head>
+		<title>css1</title>
+		<style type="text/css">
+			body{
+				
+				}	
+				#mainarea{
+					width:1200px;
+					height:1500px;
+					background:orange;
+				}
+				#mainarea table{
+					background: red;
+					border-collapse: collapse;
+					width: 200px;
+                   
+					/*height: 100px;*/
+				}
+				#mainarea table,#footerarea table tr th,#footerarea table tr td{
+					border: solid 1px #000000;
+					margin-left: 500px;
+                   
+				}							
+				#mainarea table tr:first-child{
+					background: white;
+                  
+				}
+				#mainarea table tr:nth-child(even){
+					background: skyblue;
+				}							
+				/*#footerarea table th:nth-child(odd){
+					background: #92ee29;
+				}*/
+	</head>
+		</style>
+	<body> 
+		<div id="mainarea">
+			
+			
+				<table>
+					<tr>
+						<th>A</th>
+						<th>B</th>
+						<th>A</th>
+						<th>B</th>
+					</tr>
+					<tr>
+						<th>C</th>
+						<th>D</th>
+						<th>C</th>
+						<th>D</th>
+					</tr>
+					<tr>
+						<th>E</th>
+						<th>F</th>
+						<th>E</th>
+						<th>F</th>
+					</tr>
+				</table>
+			
+		</div>
+	</body>
+</html>
